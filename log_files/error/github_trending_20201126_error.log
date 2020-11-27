@@ -1,0 +1,5 @@
+time="2020-11-26T16:33:04.7643039+07:00" level=error msg="pq: duplicate key value violates unique constraint \"users_email_key\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=33
+time="2020-11-26T17:28:00.7768521+07:00" level=error msg="/signIn have no method" file="D:/Github/backend-github-trending/model/router/router.go" line=37
+time="2020-11-26T19:09:33.5833219+07:00" level=error msg="pq: duplicate key value violates unique constraint \"users_email_key\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=33
+time="2020-11-26T19:09:41.3420557+07:00" level=error msg="pq: duplicate key value violates unique constraint \"users_email_key\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=33
+time="2020-11-26T19:09:42.8346329+07:00" level=error msg="pq: duplicate key value violates unique constraint \"users_email_key\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=33

@@ -1,0 +1,7 @@
+time="2020-11-25T23:13:18.7593041+07:00" level=error msg="validator not registered" file="D:/Github/backend-github-trending/api/user/user_handler.go" line=39
+time="2020-11-25T23:13:38.115301+07:00" level=error msg="code=415, message=Unsupported Media Type" file="D:/Github/backend-github-trending/api/user/user_handler.go" line=30
+time="2020-11-25T23:13:53.917443+07:00" level=error msg="validator not registered" file="D:/Github/backend-github-trending/api/user/user_handler.go" line=39
+time="2020-11-25T23:14:33.8347955+07:00" level=error msg="pq: syntax error at or near \"user\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=33
+time="2020-11-25T23:14:37.0680651+07:00" level=error msg="pq: syntax error at or near \"user\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=33
+time="2020-11-25T23:15:39.5974643+07:00" level=error msg="pq: syntax error at or near \"user\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=33
+time="2020-11-25T23:18:31.4592871+07:00" level=error msg="pq: duplicate key value violates unique constraint \"users_email_key\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=33
