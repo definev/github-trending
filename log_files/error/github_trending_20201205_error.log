@@ -1,0 +1,6 @@
+time="2020-12-05T20:57:30.6495694+07:00" level=error msg="/user/signUp have no method" file="D:/Github/backend-github-trending/model/router/router.go" line=42
+time="2020-12-05T20:59:46.232894+07:00" level=error msg="/user/signUp have no method" file="D:/Github/backend-github-trending/model/router/router.go" line=42
+time="2020-12-05T21:00:52.9671186+07:00" level=error msg="/user/signUp have no method" file="D:/Github/backend-github-trending/model/router/router.go" line=42
+time="2020-12-05T21:02:12.6091387+07:00" level=error msg="/user/signUp have no method" file="D:/Github/backend-github-trending/model/router/router.go" line=44
+time="2020-12-05T21:02:22.1374546+07:00" level=error msg="/user/signUp have no method" file="D:/Github/backend-github-trending/model/router/router.go" line=44
+time="2020-12-05T21:11:18.1578135+07:00" level=error msg="pq: duplicate key value violates unique constraint \"users_email_key\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=35

@@ -1,0 +1,14 @@
+time="2020-11-28T09:09:15.8422979+07:00" level=error msg="pq: syntax error at or near \"34343243\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=57
+time="2020-11-28T09:13:55.2986916+07:00" level=error msg="pq: syntax error at or near \"34343243\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=57
+time="2020-11-28T09:14:10.9275119+07:00" level=error msg="pq: syntax error at or near \"big\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=57
+time="2020-11-28T09:14:13.3234857+07:00" level=error msg="pq: syntax error at or near \"big\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=57
+time="2020-11-28T09:14:59.6526405+07:00" level=error msg="pq: syntax error at or near \"big\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=57
+time="2020-11-28T09:15:02.38875+07:00" level=error msg="pq: syntax error at or near \"big\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=57
+time="2020-11-28T09:15:03.3599145+07:00" level=error msg="pq: syntax error at or near \"big\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=57
+time="2020-11-28T10:02:58.0085357+07:00" level=error msg="pq: duplicate key value violates unique constraint \"users_email_key\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=35
+time="2020-11-28T10:03:05.7496151+07:00" level=error msg="pq: syntax error at or near \"32532\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=57
+time="2020-11-28T10:04:23.1224067+07:00" level=error msg="pq: syntax error at or near \"32532\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=57
+time="2020-11-28T10:05:22.3284162+07:00" level=error msg="pq: syntax error at or near \"32532\"" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=57
+time="2020-11-28T10:07:04.0573734+07:00" level=error msg="pq: got 1 parameters but the statement requires 0" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=57
+time="2020-11-28T10:07:23.7885242+07:00" level=error msg="must pass a pointer, not a value, to StructScan destination" file="D:/Github/backend-github-trending/repository/repo_impl/user_repo_impl.go" line=57
+time="2020-11-28T11:34:35.6890319+07:00" level=error msg="/user/signUp have no method" file="D:/Github/backend-github-trending/model/router/router.go" line=42

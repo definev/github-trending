@@ -17,23 +17,34 @@ var POST string = "POST"
 
 // Router struct
 type Router struct {
-	Name     string
-	Method   string
-	Function func(echo.Context) error
+	Name       string
+	Method     string
+	Function   func(echo.Context) error
+	Middleware []echo.MiddlewareFunc
 }
 
 // SetupRouter for init Name in main.go
 func (rest *Router) SetupRouter() {
-	var Name *echo.Route
+	success := false
 
 	switch {
 	case rest.Method == GET:
-		Name = E.GET(rest.Name, rest.Function)
+		success = true
+		if rest.Middleware != nil {
+			E.GET(rest.Name, rest.Function, rest.Middleware...)
+		} else {
+			E.GET(rest.Name, rest.Function)
+		}
 	case rest.Method == POST:
-		Name = E.POST(rest.Name, rest.Function)
+		success = true
+		if rest.Middleware != nil {
+			E.POST(rest.Name, rest.Function, rest.Middleware...)
+		} else {
+			E.POST(rest.Name, rest.Function)
+		}
 	}
 
-	if Name == nil {
+	if success == false {
 		log.Errorf("%v have no method", rest.Name)
 	}
 }

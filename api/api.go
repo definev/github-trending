@@ -6,6 +6,7 @@ import (
 	"fmt"
 
 	"github.com/labstack/echo"
+	"github.com/labstack/echo/middleware"
 )
 
 type baseAPI interface {
@@ -21,6 +22,7 @@ type API struct {
 // Init api
 func (api *API) Init() {
 	routermodel.E = api.Echo
+	api.Echo.Use(middleware.AddTrailingSlash())
 	api.User.Init()
 
 	fmt.Print(api.Echo.Start(":8000"))
